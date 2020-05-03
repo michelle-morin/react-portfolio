@@ -7,7 +7,6 @@ import * as a from './../actions';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-
 function ViewControl(props) {
   const { dispatch } = props;
 
