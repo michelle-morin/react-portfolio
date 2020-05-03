@@ -54,7 +54,7 @@ footer {
 }
 
 /* SPLASH */
-#splash, #about, #projects {
+#splash, #projects {
   height: 100vh;
 }
 
@@ -63,6 +63,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #f4f4f4;
 }
 
 #splash .name-box {
@@ -76,9 +77,11 @@ footer {
 
 /* ABOUT */
 #about {
+  padding: 0 !important;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 
 .about-section {
@@ -102,6 +105,7 @@ footer {
 }
 
 .top-left {
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,6 +138,7 @@ footer {
 }
 
 .bottom-right {
+  background-color: #f4f4f4;
   height: auto;
 }
 
@@ -195,6 +200,7 @@ footer {
   padding: 2%;
   height: auto;
   position: relative;
+  background-color: #f4f4f4;
 }
 
 #projects h2 {
@@ -285,6 +291,7 @@ img.camping, img.salon, img.parks, img.bakery, img.taproom, img.treasure {
 }
 
 .frame a:hover {
+  color: #373737;
   text-decoration: none;
   transform: scale(1.05);
 }
