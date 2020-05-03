@@ -7,24 +7,22 @@ import { Container } from 'react-bootstrap';
 
 function Bio() {
   return(
-    <div id="about">
-      <Container fluid>
-          <div className="about-section">
-            <div className="about-box top-left">
-              <Photo />
-            </div>
-            <div className="about-box top-right">
-              <IntroOne />
-            </div>
-            <div className="about-box bottom-left">
-              <IntroTwo />
-            </div>
-            <div className="about-box bottom-right">
-              <SkillList />
-            </div>
+    <Container fluid id="about">
+        <div className="about-section">
+          <div className="about-box top-left">
+            <Photo />
           </div>
-      </Container>
-    </div>
+          <div className="about-box top-right">
+            <IntroOne />
+          </div>
+          <div className="about-box bottom-left">
+            <IntroTwo />
+          </div>
+          <div className="about-box bottom-right">
+            <SkillList />
+          </div>
+        </div>
+    </Container>
   );
 }
 
