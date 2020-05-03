@@ -159,6 +159,7 @@ footer {
 .accordion .card-header {
   cursor: pointer;
   background-color: #f4f4f4;
+  text-align: center;
 }
 
 .card-header button {
@@ -316,17 +317,7 @@ img.camping, img.salon, img.parks, img.bakery, img.taproom, img.treasure {
   }
 }
 
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
-  #splash {
-    height: 50vh;
-  }
-}
-
 @media screen and (max-width: 765px) {
-  #splash {
-    height: 65vh;
-    margin-top: 4%;
-  }
   .about-section {
     flex-direction: column;
   }
@@ -381,9 +372,6 @@ img.camping, img.salon, img.parks, img.bakery, img.taproom, img.treasure {
 }
 
 @media screen and (max-width: 500px) {
-  #splash {
-    height: 65vh;
-  }
   .top-left {
     height: 60vh;
   }
@@ -393,18 +381,12 @@ img.camping, img.salon, img.parks, img.bakery, img.taproom, img.treasure {
 }
 
 @media screen and (max-width: 415px) {
-  #splash {
-    height: 65vh;
-  }
   .top-left {
     height: 60vh;
   }
 }
 
 @media screen and (max-width: 375px) {
-  #splash {
-    height: 65vh;
-  }
   .top-left {
     height: 50vh;
   }
