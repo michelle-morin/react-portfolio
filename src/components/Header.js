@@ -11,8 +11,8 @@ function Header(props){
           <Nav.Link onClick={props.onSplashClick}>Home</Nav.Link>
           <Nav.Link onClick={props.onBioClick}>About</Nav.Link>
           <Nav.Link onClick={props.onProjectsClick}>Portfolio</Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/michelleamorin/" target="_blank">LinkedIn</Nav.Link>
-          <Nav.Link href="https://github.com/michelle-morin" target="_blank">GitHub</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/michelleamorin/" target="_blank" rel="noopener noreferrer">LinkedIn</Nav.Link>
+          <Nav.Link href="https://github.com/michelle-morin" target="_blank" rel="noopener noreferrer">GitHub</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
