@@ -8,6 +8,9 @@ function ViewControl() {
   return (
     <React.Fragment>
       <Header />
+      <Splash />
+      <Bio />
+      <ProjectList />
     </React.Fragment>
   );
 }
