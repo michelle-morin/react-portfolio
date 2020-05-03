@@ -8,12 +8,13 @@ import SalonImg from './SalonImg';
 import CampImg from './CampImg';
 
 function ProjectList() {
+
   return(
     <Container fluid id="projects">
       <h2>Recent Projects</h2>
       <div className="project-cards">
         <div className="frame taproom-frame">
-          <h4>Taproom</h4>
+          <h4>Taproom </h4>
           <div className="img-wrapper">
             <TaproomImg className="taproom" />
           </div>
