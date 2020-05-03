@@ -1,5 +1,5 @@
 import React from 'react';
-import Photo from './Photo';
+import Me from './Me';
 import IntroOne from './IntroOne';
 import IntroTwo from './IntroTwo';
 import SkillList from './SkillList';
@@ -10,7 +10,7 @@ function Bio() {
     <Container fluid id="about">
         <div className="about-section">
           <div className="about-box top-left">
-            <Photo />
+            <Me />
           </div>
           <div className="about-box top-right">
             <IntroOne />
