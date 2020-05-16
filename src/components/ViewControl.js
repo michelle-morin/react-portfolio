@@ -55,6 +55,7 @@ const mapStateToProps = state => {
   }
 }
 
+// eslint-disable-next-line
 ViewControl = connect(mapStateToProps)(ViewControl);
 
 export default ViewControl;

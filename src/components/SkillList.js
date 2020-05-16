@@ -57,7 +57,7 @@ function SkillList() {
           <p>Entity Framework Core</p>
           <p>REST APIs</p>
           <p>MySQL</p>
-          <p>Firebase (NoSQL)</p>
+          <p>NoSQL (Firebase)</p>
           </Card.Body>
         </Accordion.Collapse>
       </Card>
