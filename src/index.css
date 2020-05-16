@@ -239,7 +239,7 @@ footer {
 }
 
 .img-wrapper {
-  max-width: 90%;
+  max-width: 100%;
   overflow: hidden;
 }
 
@@ -249,7 +249,7 @@ footer {
   transition: all .4s ease-in-out;
 }
 
-.frame:hover .img-wrapper img:hover {
+.frame:hover .img-wrapper img {
   transform:scale(1.25);
   -ms-transform:scale(1.25);
   -moz-transform:scale(1.25);
